@@ -115,6 +115,11 @@ body {
   transition: 0.3s all ease;
 }
 
+.submit {
+  background-color: transparent;
+  border: none;
+}
+
 i {
   font-size: 30px;
   color: #a20a0a;
