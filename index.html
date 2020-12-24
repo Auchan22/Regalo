@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Regalito</title>
+</head>
+<body>
+    <div class="header centrado">
+        <header>
+            <h1 class="title">Regalo Sorpresa</h1>
+            <div class="parrafo mt-md">
+                <p class="paragraph">Primero que nada, <span class="negrita">Feliz Navidad!!!</span>.</p>
+                <p class="paragraph">Por si todavia no saben quien envio este regalo (pero supongo que es obvio porque no estoy ahi), soy Agustín, o mejor conocido como <span class="negrita">Auchan</span>.</p>
+                <p class="paragraph">El juego no esta en adivinar quien envio el regalo, sino para quien es, por lo que van a tener que abrir primero este (sino no tiene logica mi juego xd). Por medio de la frase encriptada que van a recibir en un papel, van a obtener una clave, la cual la van a tener que ingresar aca abajo para descubrir quien es el beneficiario de este regalo.</p>
+                <!-- <p class="paragraph">Nada mas que decirles. Los quiero mucho y rompanse poco.</p> -->
+            </div>
+        </header>
+    </div>
+
+    <div class="imagen centrado ">
+        <img src="./img/cifrado-francmason.png" alt="francmason"> <br>
+        <p class="paragraph mt-md">Imagen de referencia del <span class="negrita">cifrado Francmasón</span>.</p>
+    </div>
+
+    <div class="clave centrado">
+        <form action="" name="formulario" >
+            <label for="pass" class="t-form negrita">Clave</label><br>
+            <input type="text" name="pass" id="pass" class="input">
+
+            <a href="" id="button" class=" submit my-4 ml-2"><i class="fas fa-arrow-circle-right"></i></a>
+        </form>
+    </div>
+
+    <div class="answer mt-lg centrado">
+        <div class=" ">
+            <img src="./img/caja_navidad.png" id="sorpresa" alt="Sorpresa">
+            <p class="hidden texto" id="secret">Felicitaciones y gracias por jugar</p>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
